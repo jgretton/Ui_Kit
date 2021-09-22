@@ -1,6 +1,6 @@
 import React from 'react';
 import Avatar from '../../images/Avatar.png';
-const Mini_Card = () => {
+const MiniCard = () => {
 	return (
 		<div className="bg-white max-w-lg shadow-md h-28 rounded-2xl">
 			<div className="flex flex-row items-center h-full">
@@ -21,4 +21,4 @@ const Mini_Card = () => {
 	);
 };
 
-export default Mini_Card;
+export default MiniCard;

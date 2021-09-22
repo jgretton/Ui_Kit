@@ -1,9 +1,9 @@
 import React from 'react';
 import Title_img from '../../images/patrick-perkins-3wylDrjxH-E-unsplash.png';
-const Card_1 = () => {
+const Card1 = () => {
 	return (
 		<div className="flex flex-col max-w-sm rounded-2xl bg-white shadow-md">
-			<img className="w-full h-56" src={Title_img} />
+			<img className="w-full h-56" src={Title_img} alt="" />
 			<div className="p-6">
 				<h2 className="font-bold text-2xl text-primary">Title</h2>
 				<p className="text-sm  text-gray-600 mt-4 leading-5">
@@ -20,4 +20,4 @@ const Card_1 = () => {
 	);
 };
 
-export default Card_1;
+export default Card1;

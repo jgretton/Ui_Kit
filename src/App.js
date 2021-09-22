@@ -1,9 +1,9 @@
 import './App.css';
-import Card_1 from './components/Cards/Card_1';
-import Card_2 from './components/Cards/Card_2';
-import Card_3 from './components/Cards/Card_3';
-import Card_4 from './components/Cards/Card_4';
-import Mini_Card from './components/Cards/Mini_Card';
+import Card1 from './components/Cards/Card1';
+import Card2 from './components/Cards/Card2';
+import Card3 from './components/Cards/Card3';
+import Card4 from './components/Cards/Card4';
+import MiniCard from './components/Cards/MiniCard';
 import Comment from './components/Cards/Comment';
 import Upload from './components/Cards/Upload';
 
@@ -18,28 +18,28 @@ function App() {
 	return (
 		<div className="min-h-screen min-w-screen relative flex flex-row justify-around flex-wrap bg-gray-100 p-3">
 			<div className="m-4">
-				<Card_1 />
+				<Card1 />
 			</div>
 			<div className="m-4">
-				<Card_2 />
+				<Card2 />
 			</div>
 			<div className="m-4">
-				<Card_3 />
+				<Card3 />
 			</div>
 			<div className="m-4">
-				<Card_4 />
+				<Card4 />
 			</div>
 			<div className="m-4">
-				<Mini_Card />
+				<MiniCard />
 			</div>
 
-			<div className=" w-96">
+			<div className="m-4 w-96">
 				<Search />
 			</div>
-			<div className=" w-96">
+			<div className="m-4 w-96">
 				<Upload />
 			</div>
-			<div className="">
+			<div className="m-4">
 				<Comment />
 			</div>
 			<div className="flex flex-row flex-wrap">
